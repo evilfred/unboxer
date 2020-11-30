@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83F18B0324AE7A4D008DE717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B0224AE7A4D008DE717 /* AppDelegate.swift */; };
+		83F18B0524AE7A4D008DE717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B0424AE7A4D008DE717 /* ContentView.swift */; };
+		83F18B0724AE7A4E008DE717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F18B0624AE7A4E008DE717 /* Assets.xcassets */; };
+		83F18B0A24AE7A4E008DE717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F18B0924AE7A4E008DE717 /* Preview Assets.xcassets */; };
+		83F18B0D24AE7A4E008DE717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F18B0B24AE7A4E008DE717 /* Main.storyboard */; };
+		83F18B1924AE7A4E008DE717 /* UnboxerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B1824AE7A4E008DE717 /* UnboxerTests.swift */; };
+		83F18B2424AE7A4E008DE717 /* UnboxerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B2324AE7A4E008DE717 /* UnboxerUITests.swift */; };
+		83F18B3524AE8D98008DE717 /* PdbTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B3424AE8D98008DE717 /* PdbTypes.swift */; };
+		83F18B3824AE9B46008DE717 /* PdbReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B3724AE9B46008DE717 /* PdbReader.swift */; };
+		83F18B3C24AEB3AE008DE717 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B3B24AEB3AE008DE717 /* UserData.swift */; };
+		83F18B3E24AFACAA008DE717 /* MusicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B3D24AFACAA008DE717 /* MusicTypes.swift */; };
+		83F18B4024AFAD92008DE717 /* MusicExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B3F24AFAD92008DE717 /* MusicExtractor.swift */; };
+		83F18B4224B13164008DE717 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B4124B13164008DE717 /* TrackView.swift */; };
+		83F18B4524B1355B008DE717 /* ArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B4424B1355B008DE717 /* ArtworkView.swift */; };
+		83F18B4924B144D6008DE717 /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B4824B144D6008DE717 /* TrackList.swift */; };
+		83F18B4B24B14532008DE717 /* PdbLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B4A24B14532008DE717 /* PdbLoader.swift */; };
+		83F18B4D24B14994008DE717 /* MusicCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B4C24B14994008DE717 /* MusicCatalog.swift */; };
+		83F18B5124B23E00008DE717 /* ArtistList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B5024B23E00008DE717 /* ArtistList.swift */; };
+		83F18B5524B23EE7008DE717 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B5424B23EE7008DE717 /* ArtistView.swift */; };
+		83F18B5724B23EEF008DE717 /* ComposerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B5624B23EEF008DE717 /* ComposerList.swift */; };
+		83F18B5924B242AA008DE717 /* TrackMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B5824B242AA008DE717 /* TrackMini.swift */; };
+		83F18B5B24B27764008DE717 /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B5A24B27764008DE717 /* ComposerView.swift */; };
+		83F18B5D24B27D75008DE717 /* PlaylistList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B5C24B27D75008DE717 /* PlaylistList.swift */; };
+		83F18B5F24B285FE008DE717 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B5E24B285FE008DE717 /* PlaylistView.swift */; };
+		83F18B6124B28770008DE717 /* PlaylistEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F18B6024B28770008DE717 /* PlaylistEntryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83F18B1524AE7A4E008DE717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F18AF724AE7A4D008DE717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F18AFE24AE7A4D008DE717;
+			remoteInfo = Unboxer;
+		};
+		83F18B2024AE7A4E008DE717 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83F18AF724AE7A4D008DE717 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83F18AFE24AE7A4D008DE717;
+			remoteInfo = Unboxer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83F18AFF24AE7A4D008DE717 /* Unboxer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unboxer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F18B0224AE7A4D008DE717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83F18B0424AE7A4D008DE717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83F18B0624AE7A4E008DE717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83F18B0924AE7A4E008DE717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83F18B0C24AE7A4E008DE717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83F18B0E24AE7A4E008DE717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F18B0F24AE7A4E008DE717 /* Unboxer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Unboxer.entitlements; sourceTree = "<group>"; };
+		83F18B1424AE7A4E008DE717 /* UnboxerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnboxerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F18B1824AE7A4E008DE717 /* UnboxerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnboxerTests.swift; sourceTree = "<group>"; };
+		83F18B1A24AE7A4E008DE717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F18B1F24AE7A4E008DE717 /* UnboxerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnboxerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F18B2324AE7A4E008DE717 /* UnboxerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnboxerUITests.swift; sourceTree = "<group>"; };
+		83F18B2524AE7A4E008DE717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F18B3424AE8D98008DE717 /* PdbTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdbTypes.swift; sourceTree = "<group>"; };
+		83F18B3724AE9B46008DE717 /* PdbReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdbReader.swift; sourceTree = "<group>"; };
+		83F18B3B24AEB3AE008DE717 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		83F18B3D24AFACAA008DE717 /* MusicTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTypes.swift; sourceTree = "<group>"; };
+		83F18B3F24AFAD92008DE717 /* MusicExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicExtractor.swift; sourceTree = "<group>"; };
+		83F18B4124B13164008DE717 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		83F18B4424B1355B008DE717 /* ArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkView.swift; sourceTree = "<group>"; };
+		83F18B4824B144D6008DE717 /* TrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
+		83F18B4A24B14532008DE717 /* PdbLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdbLoader.swift; sourceTree = "<group>"; };
+		83F18B4C24B14994008DE717 /* MusicCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCatalog.swift; sourceTree = "<group>"; };
+		83F18B5024B23E00008DE717 /* ArtistList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistList.swift; sourceTree = "<group>"; };
+		83F18B5424B23EE7008DE717 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
+		83F18B5624B23EEF008DE717 /* ComposerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerList.swift; sourceTree = "<group>"; };
+		83F18B5824B242AA008DE717 /* TrackMini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMini.swift; sourceTree = "<group>"; };
+		83F18B5A24B27764008DE717 /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
+		83F18B5C24B27D75008DE717 /* PlaylistList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistList.swift; sourceTree = "<group>"; };
+		83F18B5E24B285FE008DE717 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		83F18B6024B28770008DE717 /* PlaylistEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistEntryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F18AFC24AE7A4D008DE717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F18B1124AE7A4E008DE717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F18B1C24AE7A4E008DE717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F18AF624AE7A4D008DE717 = {
+			isa = PBXGroup;
+			children = (
+				83F18B0124AE7A4D008DE717 /* Unboxer */,
+				83F18B1724AE7A4E008DE717 /* UnboxerTests */,
+				83F18B2224AE7A4E008DE717 /* UnboxerUITests */,
+				83F18B0024AE7A4D008DE717 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83F18B0024AE7A4D008DE717 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F18AFF24AE7A4D008DE717 /* Unboxer.app */,
+				83F18B1424AE7A4E008DE717 /* UnboxerTests.xctest */,
+				83F18B1F24AE7A4E008DE717 /* UnboxerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F18B0124AE7A4D008DE717 /* Unboxer */ = {
+			isa = PBXGroup;
+			children = (
+				83F18B4324B1354B008DE717 /* Views */,
+				83F18B3624AE9B36008DE717 /* Reader */,
+				83F18B3124AE828A008DE717 /* Models */,
+				83F18B0224AE7A4D008DE717 /* AppDelegate.swift */,
+				83F18B0624AE7A4E008DE717 /* Assets.xcassets */,
+				83F18B0B24AE7A4E008DE717 /* Main.storyboard */,
+				83F18B0E24AE7A4E008DE717 /* Info.plist */,
+				83F18B0F24AE7A4E008DE717 /* Unboxer.entitlements */,
+				83F18B0824AE7A4E008DE717 /* Preview Content */,
+			);
+			path = Unboxer;
+			sourceTree = "<group>";
+		};
+		83F18B0824AE7A4E008DE717 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83F18B0924AE7A4E008DE717 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83F18B1724AE7A4E008DE717 /* UnboxerTests */ = {
+			isa = PBXGroup;
+			children = (
+				83F18B1824AE7A4E008DE717 /* UnboxerTests.swift */,
+				83F18B1A24AE7A4E008DE717 /* Info.plist */,
+			);
+			path = UnboxerTests;
+			sourceTree = "<group>";
+		};
+		83F18B2224AE7A4E008DE717 /* UnboxerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83F18B2324AE7A4E008DE717 /* UnboxerUITests.swift */,
+				83F18B2524AE7A4E008DE717 /* Info.plist */,
+			);
+			path = UnboxerUITests;
+			sourceTree = "<group>";
+		};
+		83F18B3124AE828A008DE717 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83F18B3B24AEB3AE008DE717 /* UserData.swift */,
+				83F18B3D24AFACAA008DE717 /* MusicTypes.swift */,
+				83F18B3F24AFAD92008DE717 /* MusicExtractor.swift */,
+				83F18B4C24B14994008DE717 /* MusicCatalog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83F18B3624AE9B36008DE717 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				83F18B3424AE8D98008DE717 /* PdbTypes.swift */,
+				83F18B3724AE9B46008DE717 /* PdbReader.swift */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		83F18B4324B1354B008DE717 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83F18B0424AE7A4D008DE717 /* ContentView.swift */,
+				83F18B4124B13164008DE717 /* TrackView.swift */,
+				83F18B4424B1355B008DE717 /* ArtworkView.swift */,
+				83F18B4824B144D6008DE717 /* TrackList.swift */,
+				83F18B4A24B14532008DE717 /* PdbLoader.swift */,
+				83F18B5024B23E00008DE717 /* ArtistList.swift */,
+				83F18B5424B23EE7008DE717 /* ArtistView.swift */,
+				83F18B5624B23EEF008DE717 /* ComposerList.swift */,
+				83F18B5824B242AA008DE717 /* TrackMini.swift */,
+				83F18B5A24B27764008DE717 /* ComposerView.swift */,
+				83F18B5C24B27D75008DE717 /* PlaylistList.swift */,
+				83F18B5E24B285FE008DE717 /* PlaylistView.swift */,
+				83F18B6024B28770008DE717 /* PlaylistEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F18AFE24AE7A4D008DE717 /* Unboxer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F18B2824AE7A4E008DE717 /* Build configuration list for PBXNativeTarget "Unboxer" */;
+			buildPhases = (
+				83F18AFB24AE7A4D008DE717 /* Sources */,
+				83F18AFC24AE7A4D008DE717 /* Frameworks */,
+				83F18AFD24AE7A4D008DE717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unboxer;
+			productName = Unboxer;
+			productReference = 83F18AFF24AE7A4D008DE717 /* Unboxer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83F18B1324AE7A4E008DE717 /* UnboxerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F18B2B24AE7A4E008DE717 /* Build configuration list for PBXNativeTarget "UnboxerTests" */;
+			buildPhases = (
+				83F18B1024AE7A4E008DE717 /* Sources */,
+				83F18B1124AE7A4E008DE717 /* Frameworks */,
+				83F18B1224AE7A4E008DE717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F18B1624AE7A4E008DE717 /* PBXTargetDependency */,
+			);
+			name = UnboxerTests;
+			productName = UnboxerTests;
+			productReference = 83F18B1424AE7A4E008DE717 /* UnboxerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83F18B1E24AE7A4E008DE717 /* UnboxerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F18B2E24AE7A4E008DE717 /* Build configuration list for PBXNativeTarget "UnboxerUITests" */;
+			buildPhases = (
+				83F18B1B24AE7A4E008DE717 /* Sources */,
+				83F18B1C24AE7A4E008DE717 /* Frameworks */,
+				83F18B1D24AE7A4E008DE717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83F18B2124AE7A4E008DE717 /* PBXTargetDependency */,
+			);
+			name = UnboxerUITests;
+			productName = UnboxerUITests;
+			productReference = 83F18B1F24AE7A4E008DE717 /* UnboxerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F18AF724AE7A4D008DE717 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Chris Seymour";
+				TargetAttributes = {
+					83F18AFE24AE7A4D008DE717 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					83F18B1324AE7A4E008DE717 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 83F18AFE24AE7A4D008DE717;
+					};
+					83F18B1E24AE7A4E008DE717 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 83F18AFE24AE7A4D008DE717;
+					};
+				};
+			};
+			buildConfigurationList = 83F18AFA24AE7A4D008DE717 /* Build configuration list for PBXProject "Unboxer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83F18AF624AE7A4D008DE717;
+			productRefGroup = 83F18B0024AE7A4D008DE717 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F18AFE24AE7A4D008DE717 /* Unboxer */,
+				83F18B1324AE7A4E008DE717 /* UnboxerTests */,
+				83F18B1E24AE7A4E008DE717 /* UnboxerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F18AFD24AE7A4D008DE717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F18B0D24AE7A4E008DE717 /* Main.storyboard in Resources */,
+				83F18B0A24AE7A4E008DE717 /* Preview Assets.xcassets in Resources */,
+				83F18B0724AE7A4E008DE717 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F18B1224AE7A4E008DE717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F18B1D24AE7A4E008DE717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F18AFB24AE7A4D008DE717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F18B3C24AEB3AE008DE717 /* UserData.swift in Sources */,
+				83F18B4D24B14994008DE717 /* MusicCatalog.swift in Sources */,
+				83F18B5524B23EE7008DE717 /* ArtistView.swift in Sources */,
+				83F18B0524AE7A4D008DE717 /* ContentView.swift in Sources */,
+				83F18B4224B13164008DE717 /* TrackView.swift in Sources */,
+				83F18B5D24B27D75008DE717 /* PlaylistList.swift in Sources */,
+				83F18B4524B1355B008DE717 /* ArtworkView.swift in Sources */,
+				83F18B5724B23EEF008DE717 /* ComposerList.swift in Sources */,
+				83F18B0324AE7A4D008DE717 /* AppDelegate.swift in Sources */,
+				83F18B6124B28770008DE717 /* PlaylistEntryView.swift in Sources */,
+				83F18B5F24B285FE008DE717 /* PlaylistView.swift in Sources */,
+				83F18B3824AE9B46008DE717 /* PdbReader.swift in Sources */,
+				83F18B5924B242AA008DE717 /* TrackMini.swift in Sources */,
+				83F18B4B24B14532008DE717 /* PdbLoader.swift in Sources */,
+				83F18B5124B23E00008DE717 /* ArtistList.swift in Sources */,
+				83F18B4924B144D6008DE717 /* TrackList.swift in Sources */,
+				83F18B4024AFAD92008DE717 /* MusicExtractor.swift in Sources */,
+				83F18B3524AE8D98008DE717 /* PdbTypes.swift in Sources */,
+				83F18B3E24AFACAA008DE717 /* MusicTypes.swift in Sources */,
+				83F18B5B24B27764008DE717 /* ComposerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F18B1024AE7A4E008DE717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F18B1924AE7A4E008DE717 /* UnboxerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F18B1B24AE7A4E008DE717 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F18B2424AE7A4E008DE717 /* UnboxerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83F18B1624AE7A4E008DE717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F18AFE24AE7A4D008DE717 /* Unboxer */;
+			targetProxy = 83F18B1524AE7A4E008DE717 /* PBXContainerItemProxy */;
+		};
+		83F18B2124AE7A4E008DE717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83F18AFE24AE7A4D008DE717 /* Unboxer */;
+			targetProxy = 83F18B2024AE7A4E008DE717 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83F18B0B24AE7A4E008DE717 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F18B0C24AE7A4E008DE717 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83F18B2624AE7A4E008DE717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83F18B2724AE7A4E008DE717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		83F18B2924AE7A4E008DE717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Unboxer/Unboxer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Unboxer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Unboxer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = unboxer.Unboxer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		83F18B2A24AE7A4E008DE717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Unboxer/Unboxer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Unboxer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Unboxer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = unboxer.Unboxer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		83F18B2C24AE7A4E008DE717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnboxerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = unboxer.UnboxerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unboxer.app/Contents/MacOS/Unboxer";
+			};
+			name = Debug;
+		};
+		83F18B2D24AE7A4E008DE717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnboxerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = unboxer.UnboxerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unboxer.app/Contents/MacOS/Unboxer";
+			};
+			name = Release;
+		};
+		83F18B2F24AE7A4E008DE717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnboxerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = unboxer.UnboxerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Unboxer;
+			};
+			name = Debug;
+		};
+		83F18B3024AE7A4E008DE717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = UnboxerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = unboxer.UnboxerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Unboxer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F18AFA24AE7A4D008DE717 /* Build configuration list for PBXProject "Unboxer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F18B2624AE7A4E008DE717 /* Debug */,
+				83F18B2724AE7A4E008DE717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F18B2824AE7A4E008DE717 /* Build configuration list for PBXNativeTarget "Unboxer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F18B2924AE7A4E008DE717 /* Debug */,
+				83F18B2A24AE7A4E008DE717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F18B2B24AE7A4E008DE717 /* Build configuration list for PBXNativeTarget "UnboxerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F18B2C24AE7A4E008DE717 /* Debug */,
+				83F18B2D24AE7A4E008DE717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F18B2E24AE7A4E008DE717 /* Build configuration list for PBXNativeTarget "UnboxerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F18B2F24AE7A4E008DE717 /* Debug */,
+				83F18B3024AE7A4E008DE717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F18AF724AE7A4D008DE717 /* Project object */;
+}
